@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
 :root {
-  --cor01: #FFFFFF
-  --cor02: #000000
-  --cor03: 
-  --cor04:
-  --cor05:
-  --cor06:
-  --cor07:
+  --cor01: #FFFFFF;
+  --cor02: #000000;
+  --cor03: #676f9d;
+  --cor04: #424769;
+  --cor05: #2d3250;
+  --cor06: #f9b17a;
+  --cor07: #d8a47f;
 }
 
 * {
@@ -23,7 +23,7 @@ body {
 header {
   width: 100vw;
   height: 40px;
-  background-color: #0D1249;
+  background-color: var(--cor05);
   text-transform: uppercase;
 }
 
@@ -33,14 +33,16 @@ header > p {
   padding: 5px;
 }
 
-section {
+/*----- sessão de tecnologias -----
+
+section#tecno {
   background-color: white;
   margin: 15px;
   border-radius: 15px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
 }
 
-section > p {
+section#tecno > p {
   padding: 5px;
   text-align: center;
   color: black;
@@ -62,7 +64,38 @@ li > img {
   height: 100px;
 }
 
+----- fim sessão de tecnologias -----*/
+
+/*----- sessão de tecnologias -----*/
+
+section#tecno {
+  background-color: red;
+  width: 80vw;
+  border-radius: 5px;
+}
+
+section#tecno > p {
+  
+}
+
+ul {
+  
+}
+
+li {
+  
+}
+
+li > img {
+  width: 100px;
+  height: 100px;
+  
+}
+
+/*----- fim sessão de tecnologias -----*/
+
 footer {
   width: 100vw;
   height: 50px;
-  background-color: #0F135C;
+  background-color: var(--cor05);
+}
